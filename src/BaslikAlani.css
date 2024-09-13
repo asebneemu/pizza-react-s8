@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -340px;
+    background-color:#CE2829;
+    padding: 20px;
+    color: white;
+    height: 207px;
+    width: 100%;
+    max-width: 540px;
+    position: relative;
+}
+header div {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    gap: 15px;
+}
+header div a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
